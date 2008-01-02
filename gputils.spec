@@ -10,6 +10,7 @@ Source0:        %{name}-%{version}.tar.bz2
 License:        GPL
 Group:          Development/Other
 Url:            http://gputils.sourceforge.net/
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 GPUTILS is a collection of tools for the Microchip (TM) PIC microcontrollers.
