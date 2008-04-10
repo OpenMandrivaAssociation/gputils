@@ -1,5 +1,5 @@
 %define name    gputils
-%define version 0.13.4
+%define version 0.13.5
 %define release %mkrel 1
 
 Name:           %{name}
@@ -20,7 +20,7 @@ It includes gpasm, gplink, and gplib.
 %setup -q
 %build
 
-%configure
+%configure2_5x
 %make
 
 %install
