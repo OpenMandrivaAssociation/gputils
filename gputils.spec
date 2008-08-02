@@ -1,12 +1,12 @@
 %define name    gputils
-%define version 0.13.5
+%define version 0.13.6
 %define release %mkrel 1
 
 Name:           %{name}
 Version:        %{version}
 Release:        %{release}
 Summary:        A collection of tools for the Microchip (TM) PIC microcontrollers
-Source0:        %{name}-%{version}.tar.bz2
+Source0:        %{name}-%{version}.tar.gz
 License:        GPL
 Group:          Development/Other
 Url:            http://gputils.sourceforge.net/
@@ -18,14 +18,14 @@ It includes gpasm, gplink, and gplib.
 
 %prep
 %setup -q
-%build
 
+%build
 %configure2_5x
 %make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%makeinstall
+%makeinstall_std
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -35,4 +35,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{_datadir}/%{name}
 %{_mandir}/man1/*.1*
+%lang(fr) %{_mandir}/fr/man1/*
 %{_bindir}/*
