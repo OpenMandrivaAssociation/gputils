@@ -1,6 +1,6 @@
 %define name    gputils
 %define version 0.13.7
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name:           %{name}
 Version:        %{version}
