@@ -4,7 +4,7 @@
 
 Name:           %{name}
 Version:        %{version}
-Release:        %{release}
+Release:	1
 Summary:        A collection of tools for the Microchip (TM) PIC microcontrollers
 Source0:        http://sourceforge.net/projects/gputils/files/%{name}/%{version}/%{name}-%{version}.tar.gz
 License:        GPLv2+
