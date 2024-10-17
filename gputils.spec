@@ -7,7 +7,7 @@ Summary:        A collection of tools for the Microchip (TM) PIC microcontroller
 Source0:        http://sourceforge.net/projects/gputils/files/%{name}/%{major}/%{name}-%{version}.tar.gz
 License:        GPLv2+
 Group:          Development/Other
-Url:            http://gputils.sourceforge.net/
+Url:            https://gputils.sourceforge.net/
 
 %description
 GPUTILS is a collection of tools for the Microchip (TM) PIC microcontrollers.
