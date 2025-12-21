@@ -9,6 +9,11 @@ License:        GPLv2+
 Group:          Development/Other
 Url:            https://gputils.sourceforge.net/
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 GPUTILS is a collection of tools for the Microchip (TM) PIC microcontrollers.
 It includes gpasm, gplink, and gplib.
